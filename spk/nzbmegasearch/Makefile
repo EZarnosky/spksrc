@@ -45,5 +45,5 @@ nzbmegasearch_extra_install: $(STAGING_DIR)/share/NZBmegasearch
 
 $(STAGING_DIR)/share/NZBmegasearch:
 	install -m 755 -d $(STAGING_DIR)/share
-	cd $(STAGING_DIR)/share && git clone --depth=1 https://github.com/pillone/usntssearch.git .
+	cd $(STAGING_DIR)/share && git clone --depth=1 https://github.com/Undeadhunter/NZBMegaSearch.git .
 	sed -i "s|^port = .*$$|port = 8086|g" $(STAGING_DIR)/share/NZBmegasearch/builtin_params.ini
