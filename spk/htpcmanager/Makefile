@@ -43,4 +43,4 @@ htpcmanager_extra_install: $(STAGING_DIR)/share/HTPC-Manager
 
 $(STAGING_DIR)/share/HTPC-Manager:
 	install -m 755 -d $(STAGING_DIR)/share
-	git clone git://github.com/styxit/HTPC-Manager.git ${STAGING_DIR}/share/HTPC-Manager
+	git clone https://github.com/Hellowlol/HTPC-Manager.git ${STAGING_DIR}/share/HTPC-Manager
